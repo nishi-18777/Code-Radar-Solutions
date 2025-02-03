@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    scanf("%f",& pi);
-    printf("value of pi is %f",pi);
+    float a;
+    print("");
+    scanf("%f",&a);
+    printf("you entered; %.2f",a);
+    
 
     return 0;
 }
