@@ -5,7 +5,8 @@ int main() {
     int a;
     char str2{40};
     scanf("%c %d %c" , &str1 , &a , &str2);
-    printf("Name: \n","Age: \n","Hobby: \n");
-
+    printf("Name: %c\n", str1);
+    printf("Age: %d\n", a);
+    printf("Hobby: %c\n", str2);
     return 0;
 }
