@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char str1{50};
+    char Name;
     int a;
-    char str2{40};
-    scanf("%s %d %s" , &str1 , &a , &str2);
+    char Hobby};
+    scanf("%s %d %s" , Name , &Age , Hobby);
     printf("Name: %s\n", str1);
     printf("Age: %d\n", a);
     printf("Hobby: %s\n", str2);
