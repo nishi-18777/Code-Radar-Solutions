@@ -2,6 +2,7 @@
 
 int main(){
     int a,b;
-    scanf("%a %b" , &a ,&b);
-    printf("")
+    scanf("%d %d" , &a ,&b);
+    printf("You entered: %d | %d",&a,&b);
+    return 0;
 }
