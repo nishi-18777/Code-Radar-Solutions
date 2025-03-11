@@ -6,7 +6,7 @@ int main() {
 
     int bit = (num >> n) & 1;
 
-    printf(" ", n, num, bit);
+    printf("1", n, num, bit);
 
     return 0;
 }
