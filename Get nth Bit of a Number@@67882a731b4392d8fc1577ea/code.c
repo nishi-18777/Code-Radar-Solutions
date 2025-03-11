@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int num = 42;  // binary: 101010
-    int n = 3;     // we want to get the 3rd bit (0-based index)
+    int num = 42; 
+    int n = 3;   
 
     int bit = (num >> n) & 1;
 
